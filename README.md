@@ -1,20 +1,77 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AuditAI: Proactive Evidence Copilot
 
-# Run and deploy your AI Studio app
+> An AI-native autonomous risk investigation and proactive evidence-tracking platform for high-frequency commerce audit.
 
-This contains everything you need to run your app locally.
+## Overview
 
-View your app in AI Studio: https://ai.studio/apps/98217119-1ed5-430b-bd2e-543846d8a083
+AuditAI is a React-based interactive dashboard that simulates an AI-driven audit intelligence system for high-frequency commerce. It demonstrates core concepts of autonomous risk investigation, proactive evidence tracing, and continuous pattern learning through a sleek, animated user interface.
 
-## Run Locally
+## Major Capabilities
 
-**Prerequisites:**  Node.js
+- **AI-Driven Investigation** — Simulated multi-agent risk signal discovery and deep-dive tracing workflows.
+- **Autonomous Evidence Tracking** — Structured evidence passport generation with confidence scoring and chain-of-custody visualization.
+- **Real-time Risk Orchestration** — Live risk event streaming, agent status monitoring, and human-in-the-loop decision nodes.
 
+## Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Risk Command Center (风险指挥舱)** — Real-time streaming of audit events with signal classification (Strong / Medium / Weak) and automated routing.
+- **Proactive Evidence Workbench (主动追证工作台)** — Step-by-step investigation trajectory visualization, evidence passport generation, and comprehensive audit report export.
+- **Risk Evolution Lab (风险进化实验室)** — Pattern mining hub for discovering new risk models, rule correlation analysis, and continuous self-learning feedback loops.
+
+## Tech Stack
+
+- **React 19** + **TypeScript**
+- **Vite** (Build tool)
+- **Tailwind CSS** (Styling)
+- **Motion** (Animations)
+- **Lucide React** (Icons)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (>= 18)
+- npm or yarn
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+The app will be served at `http://localhost:3000`.
+
+### Build
+
+```bash
+npm run build
+```
+
+Output will be generated in the `dist/` directory.
+
+## Deployment
+
+This project is pre-configured for GitHub Pages deployment via Vite's `base` option.
+
+```bash
+npm run build
+# Deploy the dist/ folder to GitHub Pages
+```
+
+## Environment Variables
+
+Create a `.env.local` file in the project root if you need to configure the Gemini API key:
+
+```env
+GEMINI_API_KEY=your_key_here
+```
+
+## License
+
+Apache-2.0
