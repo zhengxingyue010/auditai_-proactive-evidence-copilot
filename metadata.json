@@ -1,0 +1,6 @@
+{
+  "name": "AuditAI: Proactive Evidence Copilot",
+  "description": "An AI-native autonomous risk investigation and proactive evidence-tracking platform for high-frequency commerce audit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["AI-Driven Investigation", "Autonomous Evidence Tracking", "Real-time Risk Orchestration"]
+}
